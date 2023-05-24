@@ -1,0 +1,41 @@
+#periodic_table {
+    width: 100%;
+    min-width: 600px;
+}
+
+#periodic_table > div {
+    margin-bottom: 2.5%;
+}
+
+#periodic_table > div > div {
+	width: 5.5%;
+	display: inline-block;
+	margin-right: -7px;
+    margin-top: 3px;
+}
+
+#periodic_table > div > div > div {
+    border: 3px solid black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: -3px;
+    padding: 20% 0;
+}
+
+.pink{
+    background-color: #8E004D;
+}
+
+.blue{
+    background-color: aquamarine;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
